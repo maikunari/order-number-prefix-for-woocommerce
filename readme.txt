@@ -185,7 +185,7 @@ This plugin does not collect, store, or transmit any personal data. It only modi
 
 = Support =
 
-For bug reports and feature requests, please use the [support forum](https://wordpress.org/support/plugin/woo-order-number-prefix/).
+For bug reports and feature requests [github] https://github.com/maikunari/order-number-prefix-for-woocommerce.
 
 For premium support and custom development, visit [SonicPixel](https://sonicpixel.ca/).
 
