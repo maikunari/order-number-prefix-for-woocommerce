@@ -1,0 +1,53 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+.claude
+CLAUDE.md
+
+# Development files
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+yarn.lock
+.env
+
+# Build files
+/build/
+/dist/
+*.zip
+*.tar.gz
+
+# Testing
+/tests/coverage/
+phpunit.xml
+.phpunit.result.cache
+
+# WordPress specific
+wp-config.php
+/wordpress/
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
