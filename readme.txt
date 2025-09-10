@@ -1,13 +1,13 @@
 === WooCommerce Order Number Prefix ===
-Contributors: mikesewell
-Donate link: https://sonicpixel.ca/
+Contributors: maikunari
+Donate link: https://ko-fi.com/maikunari
 Tags: woocommerce, order number, order prefix, order management, ecommerce
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.2
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 3.0
 WC tested up to: 9.0
 
@@ -166,7 +166,7 @@ Initial release of WooCommerce Order Number Prefix.
 = Contributing =
 
 Development of this plugin happens on GitHub. Feel free to contribute:
-https://github.com/yourusername/woo-order-number-prefix
+https://github.com/maikunari/woo-order-number-prefix
 
 = Privacy Policy =
 
@@ -185,9 +185,9 @@ For premium support and custom development, visit [SonicPixel](https://sonicpixe
 
 == License ==
 
-This plugin is licensed under the GPL v2 or later.
+This plugin is licensed under the GPL v3 or later.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
