@@ -5,7 +5,7 @@ Tags: woocommerce, order number, order prefix, order management, ecommerce
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0
@@ -82,7 +82,7 @@ All new and existing orders will display with your chosen prefix throughout the 
 = Via FTP =
 
 1. Download the plugin zip file and extract it
-2. Upload the `woo-order-number-prefix` folder to the `/wp-content/plugins/` directory
+2. Upload the `order-number-prefix-for-woocommerce` folder to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Go to WooCommerce > Settings > General to configure your prefix
 
@@ -146,6 +146,12 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 
 == Changelog ==
 
+= 1.0.1 - 2025-09-10 =
+* Updated plugin name to "Order number prefix for WooCommerce" for better clarity
+* Updated text domain to "order-number-prefix-for-woocommerce" to match plugin directory name
+* Corrected license information in plugin header
+* Updated plugin URI to reflect new repository name
+
 = 1.0.0 - 2024-01-15 =
 * Initial release
 * Custom prefix functionality
@@ -166,7 +172,7 @@ Initial release of Order number prefix for WooCommerce.
 = Contributing =
 
 Development of this plugin happens on GitHub. Feel free to contribute:
-https://github.com/maikunari/woo-order-number-prefix
+https://github.com/maikunari/order-number-prefix-for-woocommerce
 
 = Privacy Policy =
 
