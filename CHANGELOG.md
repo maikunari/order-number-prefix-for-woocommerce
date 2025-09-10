@@ -5,6 +5,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.0.1] - 2025-09-10
+
+### Changed
+- Updated plugin name to "Order number prefix for WooCommerce" for better clarity
+- Updated text domain to "order-number-prefix-for-woocommerce" to match plugin directory name
+- Corrected license information in plugin header
+- Updated plugin URI to reflect new repository name
+
 ## [1.0.0] - 2025-09-10
 
 ### Added
@@ -38,4 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Proper hook priorities to avoid conflicts
 - Clean uninstall handling
 
+[1.0.1]: https://github.com/maikunari/order-number-prefix-for-woocommerce/releases/tag/v1.0.1
 [1.0.0]: https://github.com/maikunari/woo-order-number-prefix/releases/tag/v1.0.0

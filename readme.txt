@@ -1,13 +1,13 @@
-=== WooCommerce Order Number Prefix ===
+=== Order number prefix for WooCommerce ===
 Contributors: maikunari
 Donate link: https://ko-fi.com/maikunari
 Tags: woocommerce, order number, order prefix, order management, ecommerce
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.2
 Stable tag: 1.0.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0
 WC tested up to: 9.0
 
@@ -15,7 +15,7 @@ Add customizable prefixes to your WooCommerce order numbers for better organizat
 
 == Description ==
 
-**WooCommerce Order Number Prefix** is a lightweight plugin that allows you to add custom prefixes to your WooCommerce order numbers. Perfect for stores that need to organize orders by year, location, or brand, or simply want to add their company initials to order numbers.
+**Order number prefix for WooCommerce** is a lightweight plugin that allows you to add custom prefixes to your WooCommerce order numbers. Perfect for stores that need to organize orders by year, location, or brand, or simply want to add their company initials to order numbers.
 
 = Key Features =
 
@@ -65,7 +65,7 @@ All new and existing orders will display with your chosen prefix throughout the 
 
 1. Log in to your WordPress dashboard
 2. Navigate to Plugins > Add New
-3. Search for "WooCommerce Order Number Prefix"
+3. Search for "Order number prefix for WooCommerce"
 4. Click "Install Now" and then "Activate"
 5. Go to WooCommerce > Settings > General to configure your prefix
 
@@ -159,7 +159,7 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 == Upgrade Notice ==
 
 = 1.0.0 =
-Initial release of WooCommerce Order Number Prefix.
+Initial release of Order number prefix for WooCommerce.
 
 == Additional Information ==
 
@@ -185,9 +185,9 @@ For premium support and custom development, visit [SonicPixel](https://sonicpixe
 
 == License ==
 
-This plugin is licensed under the GPL v3 or later.
+This plugin is licensed under the GPL v2 or later.
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 

@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: WooCommerce Order Number Prefix
+ * Plugin Name: Order number prefix for WooCommerce
  * Plugin URI: https://github.com/maikunari/woo-order-number-prefix
  * Description: Add prefixes to WooCommerce order numbers.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Mike Sewell
  * Author URI: https://sonicpixel.ca
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain: wc-order-prefix
+ * Text Domain: order-number-prefix-for-woocommerce
  * Requires at least: 5.0
  * Requires PHP: 7.2
  * WC requires at least: 3.0
@@ -52,13 +52,13 @@ function add_order_prefix_setting($settings) {
             isset($section['type']) && 'sectionend' == $section['type']) {
             
             $updated_settings[] = array(
-                'name'     => __('Order Number Prefix', 'wc-order-prefix'),
-                'desc_tip' => __('This prefix will be added to all order numbers.', 'wc-order-prefix'),
+                'name'     => __('Order Number Prefix', 'order-number-prefix-for-woocommerce'),
+                'desc_tip' => __('This prefix will be added to all order numbers.', 'order-number-prefix-for-woocommerce'),
                 'id'       => 'wc_order_number_prefix',
                 'type'     => 'text',
                 'css'      => 'min-width:300px;',
                 'default'  => 'WC-',
-                'desc'     => __('Enter the prefix for order numbers.', 'wc-order-prefix'),
+                'desc'     => __('Enter the prefix for order numbers.', 'order-number-prefix-for-woocommerce'),
             );
         }
     }
