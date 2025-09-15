@@ -5,7 +5,7 @@ Tags: woocommerce, order number, order prefix, order management, ecommerce
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0
@@ -146,6 +146,9 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 
 == Changelog ==
 
+= 1.0.2 - 2025-09-15 =
+* Added plugin dependency header to declare WooCommerce as a required plugin
+
 = 1.0.1 - 2025-09-10 =
 * Updated plugin name to "Order number prefix for WooCommerce" for better clarity
 * Updated text domain to "order-number-prefix-for-woocommerce" to match plugin directory name
@@ -163,6 +166,9 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 * WordPress coding standards compliance
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Added plugin dependency header for better WordPress compatibility.
 
 = 1.0.0 =
 Initial release of Order number prefix for WooCommerce.

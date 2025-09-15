@@ -3,7 +3,7 @@
  * Plugin Name: Order number prefix for WooCommerce
  * Plugin URI: https://github.com/maikunari/woo-order-number-prefix
  * Description: Add prefixes to WooCommerce order numbers.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Mike Sewell
  * Author URI: https://sonicpixel.ca
  * License: GPL v2 or later
