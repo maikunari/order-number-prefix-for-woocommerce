@@ -3,7 +3,7 @@
  * Plugin Name: Order number prefix for WooCommerce
  * Plugin URI: https://github.com/maikunari/woo-order-number-prefix
  * Description: Add prefixes to WooCommerce order numbers.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: Sonic Pixel
  * Author URI: https://sonicpixel.io
  * License: GPL v2 or later
@@ -13,7 +13,7 @@
  * Requires PHP: 7.2
  * Requires Plugins: woocommerce
  * WC requires at least: 3.0
- * WC tested up to: 8.0
+ * WC tested up to: 11.3
  */
 
 // Exit if accessed directly
@@ -22,8 +22,22 @@ if (!defined('ABSPATH')) {
 }
 
 // Check if WooCommerce is active
+// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- Core WordPress hook.
 if (!in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
     return;
+}
+
+/**
+ * Declare compatibility with WooCommerce High-Performance Order Storage (HPOS).
+ *
+ * The plugin only reads orders through the WC_Order API, so it works with both
+ * the posts and the custom order tables storage.
+ */
+add_action('before_woocommerce_init', 'order_number_prefix_declare_hpos_compatibility');
+function order_number_prefix_declare_hpos_compatibility() {
+    if (class_exists('\Automattic\WooCommerce\Utilities\FeaturesUtil')) {
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', __FILE__, true);
+    }
 }
 
 /**
@@ -42,8 +56,8 @@ function change_woocommerce_order_number($order_id, $order) {
 }
 
 // Optional: Add a settings page to customize the prefix
-add_filter('woocommerce_general_settings', 'add_order_prefix_setting');
-function add_order_prefix_setting($settings) {
+add_filter('woocommerce_general_settings', 'order_number_prefix_add_setting');
+function order_number_prefix_add_setting($settings) {
     $updated_settings = array();
     
     foreach ($settings as $section) {
