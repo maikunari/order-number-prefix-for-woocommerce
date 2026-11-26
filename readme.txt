@@ -3,13 +3,13 @@ Contributors: maikunari
 Donate link: https://ko-fi.com/maikunari
 Tags: woocommerce, order number, order prefix, order management, ecommerce
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 7.2
 Requires PHP: 7.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 WC requires at least: 3.0
-WC tested up to: 9.0
+WC tested up to: 11.3
 
 Add customizable prefixes to your WooCommerce order numbers for better organization and branding.
 
@@ -146,6 +146,12 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 
 == Changelog ==
 
+= 1.0.3 - 2026-11-26 =
+* Tested up to WordPress 7.2 and PHP 8.6
+* Tested up to WooCommerce 11.3
+* Declared compatibility with WooCommerce High-Performance Order Storage (HPOS), so the plugin no longer blocks enabling HPOS
+* Prefixed the settings callback function name to avoid conflicts with other plugins
+
 = 1.0.2 - 2025-09-15 =
 * Added plugin dependency header to declare WooCommerce as a required plugin
 
@@ -166,6 +172,9 @@ For support, please use the WordPress.org support forum for this plugin, or visi
 * WordPress coding standards compliance
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+WordPress 7.2 compatibility and HPOS compatibility declaration.
 
 = 1.0.2 =
 Added plugin dependency header for better WordPress compatibility.
